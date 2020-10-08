@@ -1,0 +1,181 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(rstan)
+library(dummies, quietly = T)
+```
+
+## Load and preprocess
+
+```{r}
+meta_df <- read_tsv('PGC_chip_QC_fields-good_qc_runs.tsv') %>% 
+  dplyr::select(c(study, ncases_postqc, ncontrols_postqc, nsnps_postqc, lambda_postqc, nsnpex_miss, nsnpex_prekno_autosomes, nsnpex_prekno)) %>%
+  transform(study_size = ncases_postqc + ncontrols_postqc) %>%
+  replace_na(list( nsnpex_prekno = 0, nsnpex_prekno_autosomes = 0)) %>%
+  mutate(nsnpex_prekno = nsnpex_prekno + nsnpex_prekno_autosomes)
+
+# merge in platform annotations
+plat_annot <-  read_tsv('PGC chip QC - qc_runs_round2.tsv', col_types = cols()) %>% 
+  select(c(study, platform))
+meta_df <- inner_join(meta_df, plat_annot, 'study')
+
+# all Il5M are incorrect, should be GSA
+meta_df <- meta_df %>%
+    transform(platform = as.factor(platform))
+levels(meta_df$platform) <- c(levels(meta_df$platform), 'GSA')
+meta_df[which(meta_df$platform == 'Il5M'), 'platform'] <- 'GSA'
+meta_df[which(meta_df$platform == 'GSAA'), 'platform'] <- 'GSA'
+meta_df$platform <- droplevels(meta_df$platform)
+
+platforms <- c("A5.0", "A6.0", "AXIO", "COEX", "I317", "I550", "I650", "Il1M", "OMEX", "P600", "PSYC", "UKAX", "GSA")
+levels(meta_df$platform) <- platforms
+
+# all missing values are GSA as well
+meta_df <- meta_df %>% 
+  mutate(platform = fct_explicit_na(platform, "GSA"))
+
+variable_summaries <- meta_df %>% mutate(mean_snps = mean(nsnps_postqc), var_snps = var(nsnps_postqc)) %>%
+  mutate(mean_snpex_miss = mean(nsnpex_miss), var_snpex_miss = var(nsnpex_miss)) %>%
+  mutate(mean_study_size = mean(study_size)) %>%
+  mutate(mean_lambda_postqc = mean(lambda_postqc, na.rm = T), var_lambda_postqc = var(lambda_postqc, na.rm = T)) %>%
+  select(matches('mean_|var_')) %>%
+  head(1)
+
+# center any continuous measures of interest
+data_df <- meta_df %>%
+  transform(centered_study_size = study_size - mean(study_size, na.rm = T)) %>%
+  transform(scaled_nsnpex_miss = scale(nsnpex_miss)) %>%
+  transform(scaled_lambda_postqc = scale(lambda_postqc)) %>%
+  transform(scaled_nsnps_postqc = scale(nsnps_postqc))
+  
+# remove anything with missing samples
+data_df <- data_df[complete.cases(data_df),]
+
+# remove studies on platforms with too few observations
+data_df <- data_df  %>%
+    group_by(platform) %>%
+    filter(n()>5)
+
+# remove runs where there are more than 100 GWS hits
+data_df <- data_df %>% filter(nsnpex_prekno < 100)
+```
+
+## Model fit
+
+```{r}
+n_iter <- 2000
+n_warmup <- 1000
+stan_data <- list(y = data_df$nsnps_postqc,
+                  X = dummy(data_df$platform, drop = F),
+                  N = nrow(data_df),
+                  P = length(levels(data_df$platform)),
+                  N_tilde = 10)
+
+fit <- stan(file = 'fit_nc_snp_counts.stan',
+            data = stan_data,
+            chains = 1,
+            iter = n_iter,
+            warmup = n_warmup)
+```
+## Model Checks
+
+```{r}
+y_tilde <- extract(fit) %>%
+  pluck('y_tilde') %>% c() %>% 
+  as_tibble() %>%
+  mutate(iter = rep(1:nrow(data_df), n_iter - n_warmup))
+
+ppc_plt <- y_tilde %>% filter(iter <= 10) %>%
+  ggplot(aes(x=value)) +
+    geom_density(aes(group = iter)) +
+    geom_density(data = data_df, aes(x = scale(nsnps_postqc), color = 'red')) +
+    xlim(c(-5, 5)) +
+    ggtitle('posterior predictive check: scaled SNP counts') +
+    theme_minimal()
+ppc_plt
+```
+
+
+## Evaluate some new data
+
+```{r}
+platform <- 'PSYC'
+platform_onehot <- dummy(factor(c(platform), levels = platforms), drop = FALSE)
+snp_count <- 500000
+
+new_data <- list(X = platform_onehot %>% c(),
+                 y = (snp_count - mean(data_df$nsnps_postqc)) / sd(data_df$nsnps_postqc),
+                 P = length(platforms),
+                 N_draws = n_iter - n_warmup,
+                 mu = extract(fit) %>% pluck('mu') %>% unlist(),
+                 sigma = extract(fit) %>% pluck('sigma') %>% unlist())
+predictions <- stan(file = 'predict_snp_counts.stan',
+            data = new_data,
+            algorithm = 'Fixed_param',
+            iter = 1,
+            chains = 1)
+
+emp_pval <- function(generated_y, observed_y, one_sided = TRUE) {
+  
+  prop <- ifelse(observed_y <= mean(generated_y),
+                 length(which(generated_y >= observed_y)) / length(generated_y),
+                 length(which(generated_y <= observed_y)) / length(generated_y))
+  
+  pval <- ifelse(one_sided,
+                 prop,
+                 prop / 2.0)
+  
+  return(1.0 - pval)
+}
+
+emp_pval(eval_metrics$y_tilde, snp_count)
+
+sd_from_mean <- function(generated_y, observed_y) {
+  (abs(mean(generated_y) - observed_y)) / sd(generated_y)
+}
+
+sd_from_mean(eval_metrics$y_tilde, snp_count)
+
+
+
+plts <- list()
+i <- 1
+for (plat in unique(data_df$platform)) {
+  
+  platform_onehot <- dummy(factor(c(plat), levels = platforms), drop = FALSE)
+  snp_count <- 500000
+  
+  new_data <- list(X = platform_onehot %>% c(),
+                   y = (snp_count - mean(data_df$nsnps_postqc)) / sd(data_df$nsnps_postqc),
+                   P = length(platforms),
+                   N_draws = n_iter - n_warmup,
+                   mu = extract(fit) %>% pluck('mu') %>% unlist(),
+                   sigma = extract(fit) %>% pluck('sigma') %>% unlist())
+  predictions <- stan(file = 'predict_snp_counts.stan',
+              data = new_data,
+              algorithm = 'Fixed_param',
+              iter = 1,
+              chains = 1)
+
+  eval_metrics <- tibble(y_tilde = extract(predictions) %>% pluck('y_tilde') %>% c(),
+                       y_loglik = extract(predictions) %>% pluck('y_loglik') %>% c()) %>%
+                  mutate(y_tilde = y_tilde * sd(data_df$nsnps_postqc)) + mean(data_df$nsnps_postqc)
+
+  
+  generative_sds <- c(-4, -2, 2, 4) %>%
+    map(function(x) mean(eval_metrics$y_tilde) - x * sd(eval_metrics$y_tilde)) %>% unlist() %>% 
+    as_tibble()
+  
+  plts[[i]] <- ggplot(eval_metrics, aes(x = y_tilde)) +
+    geom_histogram(bins = 100) +
+    geom_vline(data = generative_sds, aes(xintercept = value), color = c('red', 'orange', 'orange', 'red'), linetype='dotted') + 
+    ggtitle(paste0('Simulated SNP counts for platform: ', plat)) +
+    xlab('SNP count') +
+    theme_minimal()
+  i <- i + 1
+}
+```
