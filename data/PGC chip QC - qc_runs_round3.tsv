@@ -1,0 +1,436 @@
+study	Stephan Comments	lambda_postqc	location	ncases_postqc	ncontrols_postqc	nsnpex_miss	nsnpex_prekno_autosomes	nsnps_postqc	rundate
+pan_gco1_eur_sa			/psych/ripke/share/swapnil/angst_cwolf/qc	0	1230	3412		724466	Tue_Sep_13_06:18:59_2016
+pan_gcm6_eur_sa	trios	1.053	/psych/ripke/share/swapnil/angst_cwolf/qc	37	87	0	0	527003	Tue_Sep_13_06:18:59_2016
+pan_gco2_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	0	856	0		503877	Tue_Sep_13_06:18:59_2016
+pan_sdo1_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	604	0	3445		522667	Tue_Sep_13_06:18:59_2016
+pan_fco1_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	0	1516	1895		553430	Tue_Sep_13_06:18:59_2016
+pan_gdo2_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	280	0	1431		558572	Tue_Sep_13_06:18:59_2016
+pan_sco1_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	0	764	270		464992	Tue_Sep_13_06:18:59_2016
+pan_sco2_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	0	440	2291		462886	Tue_Sep_13_06:18:59_2016
+pan_dco1_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	0	875	0		528235	Tue_Sep_13_06:18:59_2016
+pan_eco1_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	0	1041	22566		689030	Tue_Sep_13_06:18:59_2016
+pan_gdo1_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	488	0	14		252114	Tue_Sep_13_06:18:59_2016
+pan_gcm3_eur_sa	trios	1.030	/psych/ripke/share/swapnil/angst_cwolf/qc	214	451	0	0	298587	Tue_Sep_13_06:18:59_2016
+pan_defd_eur_sa	trios		/psych/ripke/share/swapnil/angst_cwolf/qc	719	0	3585		523443	Tue_Sep_13_06:18:59_2016
+scz_ume2_eur_sa	trios	1.410	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc	595	1638	19791	0	625174	Thu_Oct__6_09:10:31_2016
+scz_ume2_eur_sa	trios	1.354	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc/pca1/unrelated/qc	568	1524	565	0	624329	Thu_Oct__6_15:11:39_2016
+scz_ume2_eur_sa	trios	1.354	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc/pca1/unrelated/qc	568	1524	565	0	624329	Thu_Oct__6_16:49:48_2016
+scz_ume2A_eur_sa	trios	1.058	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc/split_into_groups/qc	192	820	1962	0	613166	Mon_Oct_10_10:11:52_2016
+scz_ume2B_eur_sa	trios	1.144	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc/split_into_groups/qc	376	704	2165	0	620857	Mon_Oct_10_10:11:52_2016
+scz_umea_2B_eur_sa	trios	1.151	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc/split_into_groups2/qc	378	700	2122	0	620902	Mon_Nov__7_10:24:15_2016
+scz_umea_2A_eur_sa	trios	1.059	/psych/ripke/share/swapnil/umea/bcomp_umea_scz_OmniExp_OMX/bamfile/qc/split_into_groups2/qc	202	812	2028	0	613348	Mon_Nov__7_10:24:15_2016
+pan_fiho_eur_sa	trios	0.922	/psych/ripke/share/swapnil/angst_cwolf/finish_pop/fin_out/qc	341	380	117	0	232457	Mon_Feb__6_07:22:51_2017
+pan_swd2_eur_sa	trios	1.204	/psych/ripke/share/swapnil/angst_cwolf/swedish_pop/cas_cont/swd_out/qc	603	2558	314	0	220659	Mon_Feb__6_08:12:56_2017
+pan_gom3_eur_sa	trios	1.054	/psych/ripke/share/swapnil/angst_cwolf/german_coex_pop/german_coex2/qc/QC2/qc	476	1811	0	0	218563	Tue_Feb__7_06:33:38_2017
+pan_swd2_eur_sa	trios	1.202	/psych/ripke/share/swapnil/angst_cwolf/swedish_pop/control/swd_out/qc/QC2/qc	603	2617	0	2	214572	Tue_Feb__7_06:58:25_2017
+pan_swdf_eur_sa	trios	1.202	/psych/ripke/share/swapnil/angst_cwolf/swedish_pop/control/swd_out/qc/QC3/qc	603	2617	0	0	213631	Wed_Feb__8_17:42:18_2017
+pan_swdf_eur_sa	trios	1.092	/psych/ripke/share/swapnil/angst_cwolf/swedish_pop/control/swd_out/qc/QC3/qc/QC4/qc	561	2591	0	0	213578	Fri_Feb_10_07:51:45_2017
+scz_sanc_eur_sa	trios	1.060	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	349	1409	4311	2	421311	Thu_Mar_16_06:55:31_2017
+scz_gpc1_eur_sa	trios	1.243	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	2246	2198	3308	0	452355	Thu_Mar_16_06:55:31_2017
+scz_deli_eur_sa	trios	1.360	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	142	1638	1188	231	410330	Thu_Mar_16_06:55:31_2017
+scz_vish_eur_sa	trios	1.085	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	794	346	262	0	403069	Thu_Mar_16_06:55:31_2017
+scz_pric_eur_sa	trios	1.107	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	392	548	1245	1	354152	Thu_Mar_16_06:55:31_2017
+scz_gawl_eur_sa	trios	1.329	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	1597	1636	248	30	397707	Thu_Mar_16_06:55:31_2017
+scz_cogs_eur_sa	trios	1.041	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	533	566	554	0	411915	Thu_Mar_16_06:55:31_2017
+scz_encr_eur_sa	trios	1.067	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	726	594	475	0	380238	Thu_Mar_16_06:55:31_2017
+scz_cels_eur_sa	trios	1.457	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	2182	1760	417	13	423536	Thu_Mar_16_06:55:31_2017
+scz_serr_eur_sa	trios	1.129	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	227	247	3333	0	353078	Thu_Mar_16_06:55:31_2017
+scz_yolk_eur_sa	trios	1.357	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	184	127	747	0	360676	Thu_Mar_16_06:55:31_2017
+scz_roue_eur_sa	trios	1.063	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	225	197	849	0	358373	Thu_Mar_16_06:55:31_2017
+scz_pari_eur_sa	trios	1.018	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	354	432	397	0	384453	Thu_Mar_16_06:55:31_2017
+scz_mcqu_eur_sa	trios	1.071	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc	1329	1256	2702	13	409485	Thu_Mar_16_06:55:31_2017
+scz_pric_eur_sa	trios	1.072	/psych/ripke/scz/wave3/psych_chip/escottprice_russ/QC/qc	863	965	1268	7	370832	Wed_Mar_22_12:14:02_2017
+scz_gaw2_eur_sa	trios	1.145	/psych/ripke/scz/wave3/psych_chip/qc_gawlick/qc	1949	573	1167	1	411899	Tue_Mar_28_09:23:46_2017
+scz_gaw3_eur_sa	trios	1.137	/psych/ripke/scz/wave3/psych_chip/gawlick/qc	1929	570	1094	1	409942	Tue_Mar_28_10:19:37_2017
+scz_mcq2_eur_sa	trios	1.060	/psych/ripke/scz/wave3/psych_chip/UK_McQuilliin/qc	3036	1256	3386	14	430629	Wed_Mar_29_10:14:32_2017
+scz_mcq1_eur_sa	trios	1.064	/psych/ripke/scz/wave3/psych_chip/qc_UK_McQuilliin/qc	3100	1322	3456	15	431485	Wed_Mar_29_10:19:40_2017
+scz_gpc2_eur_sa		1.205	/psych/ripke/scz/wave3/psych_chip/qc_gpc1/qc	3031	2198	3047	0	459852	Fri_Mar_31_06:36:53_2017
+scz_Epr2_eur_sa		1.075	/psych/ripke/scz/wave3/psych_chip/qc_escpric_rus/qc	864	965	1277	7	377830	Fri_Mar_31_06:45:20_2017
+scz_Epr3_eur_sa		1.131	/psych/ripke/scz/wave3/psych_chip/escottprice_russ/qc	433	507	1249	1	354170	Fri_Mar_31_06:52:24_2017
+scz_del3_eur_sa		1.145	/psych/ripke/scz/wave3/psych_chip/USA_Delsi/qc	3074	1638	1169	1	453053	Fri_Mar_31_06:54:12_2017
+scz_gpc3_eur_sa		1.205	/psych/ripke/scz/wave3/psych_chip/gpc/qc	3030	2198	3061	0	459842	Fri_Mar_31_06:57:10_2017
+scz_del2_eur_sa			/psych/ripke/scz/wave3/psych_chip/qc_del/qc	201	0	757		561162	Fri_Mar_31_07:45:38_2017
+scz_yo12_eur_sa		1.154	/psych/ripke/scz/wave3/psych_chip/yolken/qc	366	127	714	0	372610	Thu_Apr__6_09:57:29_2017
+scz_vis2_eur_sa		1.753	/psych/ripke/scz/wave3/psych_chip/vish/qc	537	45	263	4	368085	Thu_Apr__6_10:09:36_2017
+scz_msa2_eur_sa		1.067	/psych/ripke/scz/wave3/psych_chip/margarita_sanchez/qc	375	1408	4543	2	421605	Thu_Apr__6_10:20:11_2017
+scz_ser2_eur_sa		1.126	/psych/ripke/scz/wave3/psych_chip/Serretti/qc	303	247	3645	0	358257	Thu_Apr__6_10:24:09_2017
+scz_Ebar_eur_sa		1.059	/psych/ripke/scz/wave3/psych_chip/enrico/only_meged/qc	355	394	1963	0	372902	Thu_Apr__6_11:24:53_2017
+scz_Ebre_eur_sa		1.040	/psych/ripke/scz/wave3/psych_chip/enrico/only_meged/qc	371	200	1052	4	366521	Thu_Apr__6_11:24:53_2017
+scz_cel1_eur_sa		1.389	/psych/ripke/scz/wave3/psych_chip/celso_wave1/qc	1741	999	1538	33	434346	Thu_Apr__6_12:07:02_2017
+scz_cel2_eur_sa		1.223	/psych/ripke/scz/wave3/psych_chip/celso_wave2/qc	472	761	3086	4	389569	Thu_Apr__6_12:14:59_2017
+scz_del2_eur_sa		1.196	/psych/ripke/scz/wave3/psych_chip/qc_del/QC/qc	3296	1638	891	1	432836	Tue_Apr_11_18:26:48_2017
+scz_cel3_eur_sa		1.457	/psych/ripke/scz/wave3/psych_chip/celso_wave1/merged/qc	2213	1760	404	13	424041	Wed_Apr_12_05:44:44_2017
+scz_ser2_eur_sa		1.132	/psych/ripke/scz/wave3/psych_chip/qc_serr/qc	304	250	3802	0	358749	Wed_Apr_12_05:57:40_2017
+scz_cel1_eur_sa		1.270	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_cels/qc	2030	1517	38	1	296859	Thu_Apr_13_06:24:20_2017
+scz_cog1_eur_sa		1.011	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_cogs/qc	428	476	34	0	395587	Thu_Apr_13_06:51:25_2017
+scz_cel1_eur_sa		1.270	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_cels/qc	2030	1517	38	1	296859	Thu_Apr_13_07:22:06_2017
+scz_gaw1_eur_sa		1.126	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_gawl/qc	1255	1555	0	14	287220	Thu_Apr_13_07:53:41_2017
+scz_par1_eur_sa		1.004	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_paris/qc	316	390	26	0	378285	Thu_Apr_13_08:11:25_2017
+scz_rou1_eur_sa		1.005	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_rouen/qc	204	185	122	0	346567	Thu_Apr_13_09:41:54_2017
+scz_ser1_eur_sa		1.071	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_serri/qc	217	238	0	0	345297	Thu_Apr_13_09:42:15_2017
+scz_san1_eur_sa		1.022	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_sanchez/qc	335	1209	302	0	296387	Thu_Apr_13_10:11:06_2017
+scz_gaw2_eur_sa		1.126	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_gawl/qc/QC3/qc	1255	1555	0	0	285887	Tue_Apr_18_09:53:32_2017
+scz_yol1_eur_sa		1.024	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_yolken/qc	66	33	2280	0	299309	Tue_Apr_18_10:43:23_2017
+scz_vis1_eur_sa		1.017	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/usa_vish/qc	303	98	86	0	327884	Tue_Apr_18_10:43:46_2017
+scz_viyo_eur_sa		1.017	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/viyo/qc	369	131	0	0	282551	Wed_Apr_19_09:32:49_2017
+scz_mcqu_eur_sa		1.072	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_mcquillin/final_release/qc	1352	1313	2616	15	410514	Thu_Apr_27_10:44:48_2017
+scz_mcq1_eur_sa		1.070	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_mcquillin/final_release/qc/qc	1351	1310	0	0	282320	Fri_Apr_28_06:08:16_2017
+scz_mcq1_eur_sa		1.070	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_mcquillin/final_release/qc/qc	1351	1310	0	0	282320	Tue_May__2_07:16:55_2017
+scz_gaw3_eur_sa		1.126	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_gawl/qc/QC4/qc	1255	1555	0	0	287202	Tue_May__2_11:39:33_2017
+scz_gpc1_eur_sa		1.258	/psych/ripke/scz/wave3/psych_chip/gpc/swap.corr_scz/qc	2307	2198	3194	0	452976	Thu_May__4_14:53:28_2017
+scz_gpc2_eur_sa		1.061	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_gpc/QC2/qc	1957	2062	170	0	294169	Sun_May__7_05:38:15_2017
+scz_pric_eur_sa		1.081	/psych/ripke/scz/wave3/psych_chip/qc_escpric_rus/pric.SXE.plates/qc	864	744	1063	6	374336	Mon_May__8_09:59:08_2017
+scz_enri_eur_sa		1.070	/psych/ripke/scz/wave3/psych_chip/enrico/qc	711	594	428	0	379874	Mon_May__8_10:22:04_2017
+scz_pri1_eur_sa		1.051	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_price/qc	840	727	43	0	296858	Tue_May__9_04:08:19_2017
+scz_enr1_eur_sa		1.030	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_enrc2/qc	700	574	52	0	379548	Tue_May__9_16:40:56_2017
+scz_euse1_eur_sa		1.040	/psych/ripke/share/swapnil/EUGEI/qc	34	46	2135	0	299782	Thu_Jul__6_09:09:13_2017
+scz_euit1_eur_sa		1.192	/psych/ripke/share/swapnil/EUGEI/qc	60	179	1956	0	338474	Thu_Jul__6_09:09:13_2017
+scz_eune1_eur_sa		1.705	/psych/ripke/share/swapnil/EUGEI/qc	101	195	3186	0	357306	Thu_Jul__6_09:09:13_2017
+scz_eufr1_eur_sa		1.818	/psych/ripke/share/swapnil/EUGEI/qc	39	107	4869	0	335273	Thu_Jul__6_09:09:13_2017
+scz_euuk1_eur_sa		1.814	/psych/ripke/share/swapnil/EUGEI/qc	49	229	5401	0	351236	Thu_Jul__6_09:09:13_2017
+scz_eune2_eur_sa		1.007	/psych/ripke/share/swapnil/EUGEI/qc/qc2/qc	57	142	389	0	318638	Fri_Jul__7_07:13:42_2017
+scz_euuk2_eur_sa		1.007	/psych/ripke/share/swapnil/EUGEI/qc/qc3/qc	28	181	32	0	314806	Fri_Jul__7_07:25:52_2017
+scz_eu5me_eur_sa		1.003	/psych/ripke/share/swapnil/EUGEI/qc/merge_QC2/qc	182	615	0	0	259434	Fri_Jul__7_09:29:46_2017
+scz_bepuc_eur_sa		1.180	/psych/genetics_data/sawasthi/beps_int_qc/qc	362	597	12527	0	538348	Thu_Jan__4_10:45:52_2018
+scz_jnj1a_eur_sa		5.724	/psych/ripke/scz/wave3/JJ_cases/analysis/qc	1994	2106	72	41	357554	Fri_Jan_26_05:00:18_2018
+scz_jjbpw_eur_sa		1.128	/psych/ripke/scz/wave3/JJ_cases/analysis/qc/imputation/pop1/qc	437	1799	87	10	331122	Wed_Jan_31_16:05:52_2018
+scz_jjwe2_eur_sa		1.044	/psych/ripke/scz/wave3/JJ_cases/analysis/qc/imputation/pop1/qc/imputation/QC/qc	427	851	6	0	269201	Thu_Feb__1_11:24:15_2018
+scz_jjwe3_eur_sa		1.041	/psych/ripke/scz/wave3/JJ_cases/analysis/qc/imputation/pop1/qc/imputation/QC3/qc	401	401	5	0	269114	Tue_Feb_13_06:59:10_2018
+sim_hapAS_eur_sa		1.022	/psych/genetics_data/sawasthi/hapgen1a/qc	68	52	42089	6	415856	Tue_Nov__6_10:45:16_2018
+sim_hapAS_eur_sa		1.022	/psych/genetics_data/sawasthi/hapgen1a/qc	68	52	42089	6	415856	Wed_Nov__7_17:26:11_2018
+sim_hapg4_eur_sa		3.104	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/qc	2936	3151	7760	6	501858	Thu_Nov__8_03:42:09_2018
+sim_hapg4_eur_sa		3.104	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/qc	2936	3151	7760	6	501858	Thu_Nov__8_05:47:08_2018
+sim_hapg5_eur_sa		1.102	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/qc/PCA/qc	2929	2961	0	8	501818	Thu_Nov__8_08:15:26_2018
+sim_hapg6_eur_sa		1.102	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/qc/PCA/qc/imputation/qc	2929	2961	0	0	501783	Thu_Nov__8_11:34:36_2018
+sim_hap1a_eur_sa		3.104	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/qc	2936	3151	7782	6	501817	Tue_Nov_20_15:35:13_2018
+sim_hap2a_eur_sa		1.102	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/qc/pca/qc	2929	2961	4	8	501773	Tue_Nov_20_17:21:45_2018
+sim_hap3a_eur_sa		1.097	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/qc/pca/qc/imputation/qc	2929	2961	0	0	500319	Tue_Nov_20_18:07:21_2018
+sim_hap3a_eur_sa		1.097	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/qc/pca/qc/imputation/qc	2929	2961	0	0	500319	Tue_Nov_20_19:10:17_2018
+sim_hap3a_eur_sa		3.154	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/qc	3020	3065	8001	7	501548	Sun_Dec_30_17:59:10_2018
+sim_hap3a_eur_sa		3.154	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/qc	3020	3065	8001	7	501548	Mon_Dec_31_14:22:17_2018
+sim_hap3a_eur_sa		3.154	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/qc	3020	3065	8001	7	501548	Mon_Dec_31_19:33:56_2018
+sim_hap4a_eur_sa		3.152	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/analysis/qc	3021	3071	8038	7	501519	Mon_Dec_31_20:12:05_2018
+sim_hap4a_eur_sa		3.152	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/analysis/qc	3021	3071	8038	7	501519	Tue_Jan__1_09:13:59_2019
+sim_hap4b_eur_sa		1.010	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/analysis/qc/pca/QC2/qc	3014	2881	9	8	501467	Tue_Jan__1_18:15:50_2019
+sim_hap4c_eur_sa		1.006	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/analysis/qc/pca/QC2/qc/QC3/qc	3014	2881	0	0	499810	Tue_Jan__1_19:00:45_2019
+sim_hap5a_eur_sa		1.006	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/analysis/qc/pca/QC2/qc/QC3/qc/imputation/qc	1009	956	0	0	499494	Mon_Jan__7_07:24:19_2019
+sim_hap5b_eur_sa		1.004	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/dec27/analysis/qc/pca/QC2/qc/QC3/qc/imputation/qc	2005	1925	0	0	499682	Mon_Jan__7_07:24:19_2019
+sim_hap6b_eur_sa		5.624	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/qc	925	1162	7969	11	496484	Tue_Jan__8_17:52:18_2019
+sim_hap6a_eur_sa		0.997	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/qc	1899	1977	7945	14	512653	Tue_Jan__8_17:52:18_2019
+sim_hap1x_eur_sa		0.997	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc	1899	1977	7946	14	512652	Wed_Jan__9_17:47:59_2019
+sim_hap1y_eur_sa		5.608	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc	924	1162	8305	11	496027	Wed_Jan__9_17:47:59_2019
+sim_hap2y_eur_sa		0.991	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc/QC2/qc	918	976	288	18	495606	Thu_Jan_10_03:57:13_2019
+sim_hap2x_eur_sa		0.996	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc/QC2/qc	1899	1977	0	0	508917	Thu_Jan_10_03:57:13_2019
+sim_hap2y_eur_sa		0.991	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc/QC2/qc	918	976	288	18	495606	Sun_Jan_13_17:30:24_2019
+sim_hap2x_eur_sa		0.996	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc/QC2/qc	1899	1977	0	0	508917	Sun_Jan_13_17:30:24_2019
+sim_hap3y_eur_sa		0.973	/psych/genetics_data/sawasthi/hapgen1a/combined/re_analysis/nov20/jan08/analysis/09Jan/qc/QC2/qc/qc	918	976	0	0	483965	Sun_Jan_13_18:06:27_2019
+sim_sim1a_eur_sa		2.541	/psych/genetics_data/sawasthi/hapgen/dir1/qc	929	1059	8029	17	507525	Thu_Jan_24_12:11:56_2019
+sim_sim2a_eur_sa		1.008	/psych/genetics_data/sawasthi/hapgen/dir2/qc	423	477	8432	27	556350	Thu_Jan_24_12:13:40_2019
+sim_hap3b_eur_sa		3.249	/psych/genetics_data/sawasthi/hapgen/analysis/qc	478	622	0	0	540914	Fri_Jan_25_06:34:42_2019
+sim_hap1b_eur_sa		2.541	/psych/genetics_data/sawasthi/hapgen/analysis/qc	929	1059	8051	16	507493	Fri_Jan_25_06:34:42_2019
+sim_hap5b_eur_sa		1.008	/psych/genetics_data/sawasthi/hapgen/analysis/qc	491	509	0	0	593970	Fri_Jan_25_06:34:42_2019
+sim_hap2a_eur_sa		1.008	/psych/genetics_data/sawasthi/hapgen/analysis/qc	423	477	8433	29	556348	Fri_Jan_25_06:34:42_2019
+sim_hap4b_eur_sa		1.022	/psych/genetics_data/sawasthi/hapgen/analysis/qc	493	507	0	1	593969	Fri_Jan_25_06:34:42_2019
+sim_test1_eur_sa		2.618	/psych/genetics_data/sawasthi/hapgen/test_for_case_control/qc	930	1056	7921	0	507277	Fri_Jan_25_08:56:00_2019
+sim_hap1b_eur_sa		2.541	/psych/genetics_data/sawasthi/hapgen/dir1/qc/qc	929	1059	8051	16	507493	Fri_Jan_25_09:52:41_2019
+sim_hap3b_eur_sa		3.249	/psych/genetics_data/sawasthi/hapgen/analysis/qc	478	622	0	0	540914	Fri_Jan_25_10:01:29_2019
+sim_hap1b_eur_sa		2.541	/psych/genetics_data/sawasthi/hapgen/analysis/qc	929	1059	8051	16	507493	Fri_Jan_25_10:01:29_2019
+sim_hap5b_eur_sa		1.008	/psych/genetics_data/sawasthi/hapgen/analysis/qc	491	509	0	0	593970	Fri_Jan_25_10:01:29_2019
+sim_hap2a_eur_sa		1.008	/psych/genetics_data/sawasthi/hapgen/analysis/qc	423	477	8433	29	556348	Fri_Jan_25_10:01:29_2019
+sim_hap4b_eur_sa		1.022	/psych/genetics_data/sawasthi/hapgen/analysis/qc	493	507	0	1	593969	Fri_Jan_25_10:01:29_2019
+sim_hap1c_eur_sa		1.001	/psych/genetics_data/sawasthi/hapgen/analysis/qc/pca_sim_hap1b/qc	927	965	13	18	507398	Fri_Jan_25_10:40:24_2019
+sim_hap1d_eur_sa		1.000	/psych/genetics_data/sawasthi/hapgen/analysis/qc/pca_sim_hap1b/qc/QC1/qc	927	965	0	0	503121	Fri_Jan_25_11:22:23_2019
+sim_hap2b_eur_sa		1.008	/psych/genetics_data/sawasthi/hapgen/analysis/qc/pca_sim_hap2a/qc	423	477	0	0	551898	Fri_Jan_25_12:08:34_2019
+sim_hap3c_eur_sa		1.006	/psych/genetics_data/sawasthi/hapgen/analysis/qc/pca_sim_hap3b/qc	473	527	0	0	540914	Fri_Jan_25_12:15:10_2019
+sim_hap4b_eur_sa		0.993	/psych/genetics_data/sawasthi/hapgen/dir4/QC/qc	483	517	0	0	593970	Fri_Feb__1_07:20:33_2019
+sim_hap5b_eur_sa		0.992	/psych/genetics_data/sawasthi/hapgen/dir5/qc	516	484	0	0	593970	Mon_Feb__4_06:36:24_2019
+ocd_ioeu_eur_sr		1.182	/psych/genetics_data/ripke/pgc/ocd/iocfgc/eu_aj/qc	1057	4101	6928	5	463924	Mon_Aug_11_12:27:57_2014
+ocd_ioaj_eur_sr		1.005	/psych/genetics_data/ripke/pgc/ocd/iocfgc/eu_aj/qc	92	260	7861	6	456734	Mon_Aug_11_12:27:57_2014
+ocd_occc_eur_sr		0.972	/psych/genetics_data/ripke/pgc/ocd/ocgas/caco/qc	462	67	1255	0	591020	Sat_Aug_16_06:10:05_2014
+can_tcg7_eur_sr		1.034	/psych/genetics_data/ripke/cancer/tcga/preimp_0814b/qc	3213	3177	24938	0	779962	Mon_Aug_25_09:25:21_2014
+ocd_iotr_eur_sr		1.008	/psych/genetics_data/ripke/pgc/ocd/iocfgc/trio/qc	394	0	7419	0	557624	Mon_Aug_25_11:51:33_2014
+ocd_iosa_eur_sr		1.009	/psych/genetics_data/ripke/pgc/ocd/iocfgc/sa/qc	98	159	13935	0	548732	Mon_Aug_25_11:57:56_2014
+ocd_octr_eur_sr		0.994	/psych/genetics_data/ripke/pgc/ocd/ocgas/trio_0814/qc	1130	348	252	0	581862	Wed_Aug_27_16:36:17_2014
+ocd_occc_eur_sr		1.277	/psych/genetics_data/ripke/pgc/ocd/ocgas/caco/merge_with_usc/qc	462	1247	97	0	545630	Sat_Aug_30_12:32:34_2014
+mdd_gepw_eur_sr		1.110	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_genpod_0914/preimp/qc	328	2852	287	141	515760	Thu_Sep_18_06:54:18_2014
+mdd_gepw_eur_sr		1.110	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_genpod_0914/preimp/qc	328	2852	287	141	515760	Thu_Sep_18_14:18:42_2014
+mdd_gep2_eur_sr		1.179	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_genpod_0914/preimp/nosex/qc	506	2852	540	113	515597	Thu_Sep_18_14:20:14_2014
+mdd_gep2_eur_sr		1.037	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_genpod_0914b/preimp/qc	482	2852	512	2	509717	Fri_Sep_19_06:09:27_2014
+mdd_qii3_eur_sr		1.000	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0914/preimp/qc	771	723	1396	0	76334	Fri_Sep_19_06:12:57_2014
+mdd_qii6_eur_sr		0.994	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0914/preimp/qc	436	485	67	0	487881	Fri_Sep_19_06:12:57_2014
+mdd_qiom_eur_sr		1.000	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0914/preimp/qc	375	310	13	0	242360	Fri_Sep_19_06:12:57_2014
+mdd_nl2p_eur_sr		0.992	/psych/genetics_data/ripke/pgc/mdd/preimp_match5_0914/qc	103	493	6556	3	614136	Fri_Sep_19_15:40:50_2014
+mdd_rot4_eur_sr		0.981	/psych/genetics_data/ripke/pgc/mdd/preimp_match5_0914/qc	247	1233	8102	0	511180	Fri_Sep_19_15:40:50_2014
+mdd_rde2_eur_sr		1.007	/psych/genetics_data/ripke/pgc/mdd/preimp_match5_0914/qc	132	654	2687	0	527501	Fri_Sep_19_15:40:50_2014
+mdd_jtem_eur_sr		1.319	/psych/genetics_data/ripke/pgc/mdd/single_uploads/pharma/qc	538	771	351	5	419674	Tue_Sep_23_11:09:00_2014
+mdd_qi3b_eur_sr		1.008	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0914b/qc	903	545	1063	0	292521	Tue_Sep_23_13:01:49_2014
+mdd_jjni_eur_sr		1.063	/psych/genetics_data/ripke/pgc/mdd/single_uploads/pharma/qc/qc	481	765	35	0	419298	Tue_Sep_23_13:15:14_2014
+mdd_col2_eur_sr		0.997	/psych/genetics_data/ripke/pgc/mdd/preimp_colaus.0914b/qc	360	629	51859	0	362142	Thu_Sep_25_10:48:27_2014
+mdd_col3_eur_sr		0.998	/psych/genetics_data/ripke/pgc/mdd/preimp_colaus.0914b/qc	508	1464	49331	0	373158	Thu_Sep_25_10:48:27_2014
+mdd_twge_eur_sr		1.049	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	1860	7699	2570	0	641803	Fri_Sep_26_05:43:47_2014
+mdd_gain_eur_sr		1.117	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	1758	1769	56506	0	387504	Fri_Sep_26_05:43:47_2014
+mdd_shpt_eur_sr		1.000	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	165	500	26872	0	1758070	Fri_Sep_26_05:43:47_2014
+mdd_gsk1_eur_sr		1.061	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	939	867	2963	0	518746	Fri_Sep_26_05:43:47_2014
+mdd_sta2_eur_sr		1.054	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	1242	909	454	0	270720	Fri_Sep_26_05:43:47_2014
+mdd_munc_eur_sr		1.013	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	403	530	5112	0	309003	Fri_Sep_26_05:43:47_2014
+mdd_rad2_eur_sr		1.062	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	1922	1549	418	0	555968	Fri_Sep_26_05:43:47_2014
+mdd_raus_eur_sr		1.013	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	223	390	528	0	479039	Fri_Sep_26_05:43:47_2014
+mdd_genr_eur_sr		1.123	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	1020	1636	5102	0	640822	Fri_Sep_26_05:43:47_2014
+mdd_edi1_eur_sr		1.025	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	372	287	370	14	616705	Fri_Sep_26_05:43:47_2014
+mdd_i2b2_eur_sr		1.124	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	821	1095	13285	0	594289	Fri_Sep_26_05:43:47_2014
+mdd_rair_eur_sr		1.010	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	109	348	1	1	432473	Fri_Sep_26_05:43:47_2014
+mdd_rage_eur_sr		1.040	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	328	450	599	0	482765	Fri_Sep_26_05:43:47_2014
+mdd_egco_eur_sr		1.008	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	611	2961	20156	0	609270	Fri_Sep_26_05:43:47_2014
+mdd_shp0_eur_sr		1.033	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	373	1132	62257	0	738033	Fri_Sep_26_05:43:47_2014
+mdd_egc3_eur_sr		1.015	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	229	1102	5590	0	314429	Fri_Sep_26_05:43:47_2014
+mdd_ger2_eur_sr		1.052	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	1302	944	0	0	739666	Fri_Sep_26_05:43:47_2014
+mdd_boma_eur_sr		1.054	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc	597	1292	0	0	503021	Fri_Sep_26_05:43:47_2014
+mdd_gsk2_eur_sr		1.054	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/pcain/qc	931	865	236	0	518502	Fri_Sep_26_08:29:13_2014
+mdd_i2b3_eur_sr		1.124	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/pcain/qc	812	1083	110	0	591270	Fri_Sep_26_08:29:13_2014
+mdd_rad3_eur_sr		1.064	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/pcain/qc	1913	1537	0	0	554744	Fri_Sep_26_08:29:13_2014
+mdd_gai2_eur_sr		1.059	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/pcain/qc	1715	1761	414	0	386667	Fri_Sep_26_08:29:13_2014
+bip_edi1_eur_sr		1.022	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	282	275	12264	0	344775	Sun_Sep_28_11:49:51_2014
+bip_uclo_eur_sr		1.003	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	491	495	24558	0	344528	Sun_Sep_28_11:49:51_2014
+bip_wtcc_eur_sr		1.114	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	1862	2934	16876	0	432682	Sun_Sep_28_11:49:51_2014
+bip_bonn_eur_sr		1.075	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	675	1298	0	0	499494	Sun_Sep_28_11:49:51_2014
+bip_gsk1_eur_sr		1.027	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	892	903	4041	0	528201	Sun_Sep_28_11:49:51_2014
+bip_dub1_eur_sr		1.022	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	150	796	39297	0	660474	Sun_Sep_28_11:49:51_2014
+bip_stp1_eur_sr		1.041	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part1/qc	927	1470	37886	0	331202	Sun_Sep_28_11:49:51_2014
+bip_umea_eur_sr		1.324	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	592	1381	18533	0	637822	Sun_Sep_28_13:04:46_2014
+bip_icuk_eur_sr		1.109	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	2585	5480	15	0	393607	Sun_Sep_28_13:04:46_2014
+bip_swei_eur_sr		1.099	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	1310	3751	1	0	579252	Sun_Sep_28_13:04:46_2014
+bip_rom2_eur_sr		1.040	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	239	207	4967	2	604343	Sun_Sep_28_13:04:46_2014
+bip_may1_eur_sr		1.043	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	935	760	2406	0	686229	Sun_Sep_28_13:04:46_2014
+bip_fran_eur_sr		1.041	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	452	1635	9622	0	279572	Sun_Sep_28_13:04:46_2014
+bip_swea_eur_sr		1.106	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	898	2305	4	0	624126	Sun_Sep_28_13:04:46_2014
+bip_top7_eur_sr		1.055	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	473	378	61476	0	667707	Sun_Sep_28_13:04:46_2014
+bip_ucla_eur_sr	trio	1.027	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc	679	665	25	0	647015	Sun_Sep_28_13:04:46_2014
+bip_mich_eur_sr		1.200	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part2/qc	1130	771	2946	0	509425	Mon_Sep_29_08:10:11_2014
+bip_stp2_eur_sr		1.103	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part2/qc	659	191	8587	0	312098	Mon_Sep_29_08:10:11_2014
+bip_gain_eur_sr	trio	1.024	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/preimp_part2/qc	1000	1031	39985	0	677788	Mon_Sep_29_08:10:11_2014
+bip_ftes_eur_sr		1.138	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/qc	753	1175	5345	2	523436	Mon_Sep_29_08:28:52_2014
+bip_st2b_eur_sr		1.203	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/step2_RA_MIGEN_MA/qc	659	1384	2536	0	301326	Mon_Sep_29_15:22:57_2014
+bip_fatg_eur_sr		1.135	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/qc/qc	740	1165	0	2	523223	Mon_Sep_29_15:56:11_2014
+bip_fat2_eur_sr		1.131	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/qc/qc_miss/qc	740	1165	64960	0	458476	Mon_Sep_29_16:50:29_2014
+bip_pf1d_eur_sr		1.164	/psych/genetics_data/ripke/pgc/bip/wave2_1213/pfizer.v2/preimp_0314a/qc/pcain_doug/qc	453	1074	28771	7	651211	Mon_Sep_29_17:08:47_2014
+bip_st2c_eur_sr		1.126	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave1/step2_RA_MIGEN_MA/qc/pcain/qc	639	1257	2369	0	301704	Tue_Sep_30_04:39:22_2014
+bip_rom3_eur_sr		1.040	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc/reqc_umea_rom2_swea/qc	238	206	4116	0	587509	Tue_Sep_30_09:26:50_2014
+bip_ume2_eur_sr		1.263	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc/reqc_umea_rom2_swea/qc	580	1277	23751	0	637656	Tue_Sep_30_09:26:50_2014
+bip_swa2_eur_sr		1.103	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc/reqc_umea_rom2_swea/qc	898	2305	4	0	518940	Tue_Sep_30_09:26:50_2014
+bip_ume3_eur_sr		1.047	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc/reqc_umea_match/qc	512	1020	24457	2	635685	Tue_Sep_30_10:20:19_2014
+bip_ume4_eur_sr		1.015	/psych/genetics_data/ripke/pgc/bip/rework_0914/wave2a/qc/reqc_umea_match/qc	575	574	25899	0	632614	Tue_Sep_30_10:20:19_2014
+bip_pf1e_eur_sr		1.039	/psych/genetics_data/ripke/pgc/bip/wave2_1213/pfizer.v2/preimp_0314a/qc/qc/pcaer/preimp_0914/qc	382	714	147	0	636804	Tue_Sep_30_15:30:40_2014
+mdd_col2_eur_sr		0.997	/psych/genetics_data/ripke/pgc/mdd/preimp_colaus.0914b/qc	360	629	51859	0	362142	Fri_Oct__3_11:27:58_2014
+mdd_col3_eur_sr		0.998	/psych/genetics_data/ripke/pgc/mdd/preimp_colaus.0914b/qc	508	1464	49331	0	373158	Fri_Oct__3_11:27:58_2014
+mdd_edi2_eur_sr		1.026	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/preimp_edin/qc	372	287	321	0	522432	Fri_Oct__3_11:46:24_2014
+mdd_gep3_eur_sr		1.036	/psych/genetics_data/ripke/pgc/mdd/preimp_reqc_0914/qc	482	2852	0	0	492887	Fri_Oct__3_12:35:02_2014
+mdd_nl3p_eur_sr		0.992	/psych/genetics_data/ripke/pgc/mdd/preimp_reqc_0914/qc	103	493	0	0	613634	Fri_Oct__3_12:35:02_2014
+mdd_rai2_eur_sr		1.010	/psych/genetics_data/ripke/pgc/mdd/preimp_reqc_0914/qc	109	348	0	0	432472	Fri_Oct__3_12:35:02_2014
+mdd_pfi1_eur_sr		1.051	/psych/genetics_data/ripke/pgc/mdd/single_uploads/pfizer_0914/preimp/qc	320	771	3368	3	480204	Tue_Oct__7_06:38:50_2014
+bip_usc2_eur_sr		1.067	/psych/genetics_data/ripke/pgc/bip/wave2_0613/batch2/preimp_0914/qc	1299	1156	385	0	598185	Tue_Oct__7_06:41:46_2014
+scz_shi1_asn_sr		1.123	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/shi_china/qc	992	2290	46377	106	679793	Wed_Oct__8_05:14:58_2014
+scz_biox_asn_sr		1.091	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/shi_china/qc/qc	960	1913	1191	98	675924	Wed_Oct__8_06:51:19_2014
+scz_bix2_asn_sr	asian	1.090	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/shi_china/qc/qc/qc	959	1913	0	0	599908	Wed_Oct__8_10:37:30_2014
+bip_mgh1_eur_sr	asian	3.981	/psych/genetics_data/ripke/pgc/bip/rework_0914_additional3/merge_mgh/qc	1321	1314	1935	3	433911	Sat_Oct_11_17:06:36_2014
+bip_gpc1_eur_sr		1.032	/psych/genetics_data/ripke/pgc/bip/rework_0914_additional3/gpc/qc	434	2196	3715	7	426984	Sat_Oct_11_17:38:11_2014
+bip_mgh2_eur_sr	asian	1.135	/psych/genetics_data/ripke/pgc/bip/rework_0914_additional3/merge_mgh/qc/qc	1025	1216	194	9	400826	Sun_Oct_12_04:56:43_2014
+bip_gpc2_eur_sr	asian	1.032	/psych/genetics_data/ripke/pgc/bip/rework_0914_additional3/gpc/qc/qc	434	2196	0	0	286721	Sun_Oct_12_05:03:48_2014
+bip_mgh3_eur_sr		1.011	/psych/genetics_data/ripke/pgc/bip/rework_0914_additional3/merge_mgh/qc/qc/preimp_match/qc	984	943	120	4	277334	Sun_Oct_12_08:59:46_2014
+tst_tst1_eur_sr		0.971	/psych/genetics_data/ripke/for_others/roy/lithium/test/qc	84	318	25315	0	322839	Thu_Nov__6_08:49:55_2014
+mdd_gra1_eur_sr		1.075	/psych/genetics_data/ripke/pgc/mdd/single_uploads/gera/eur/qc	7177	39988	21584	0	615943	Tue_Nov_11_10:17:21_2014
+mdd_grnd_eur_sr		1.086	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/split_ger2/qc	831	474	0	0	739723	Fri_Dec_19_08:15:32_2014
+mdd_grdg_eur_sr		1.018	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/split_ger2/qc	471	470	0	0	739726	Fri_Dec_19_08:15:32_2014
+mdd_roc1_eur_sr		2.708	/psych/genetics_data/ripke/pgc/mdd/single_uploads/roche/qc	188	391	6064	0	378680	Fri_Dec_19_08:35:26_2014
+aut_s2m2_eur_sr		1.875	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	397	645	7884	12	813365	Fri_Jan__2_13:29:26_2015
+aut_jhu2_eur_sr		4.502	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	1403	2157	13	1	287129	Fri_Jan__2_13:29:26_2015
+aut_scd2_eur_sr		3.400	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	817	1429	7	0	419036	Fri_Jan__2_13:29:26_2015
+aut_ag1b_eur_sr		1.415	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	1326	2651	98	1	447941	Fri_Jan__2_13:29:26_2015
+aut_ace2_eur_sr		2.701	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	391	771	5	1	337750	Fri_Jan__2_13:29:26_2015
+aut_ag2b_eur_sr		2.621	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	938	2462	14	164	497627	Fri_Jan__2_13:29:26_2015
+aut_cho2_eur_sr		1.431	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	976	1841	449	0	468314	Fri_Jan__2_13:29:26_2015
+aut_mob2_eur_sr	?	1.283	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	144	496	216	0	284981	Fri_Jan__2_13:29:26_2015
+aut_scm2_eur_sr		1.906	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	399	637	4020	9	786411	Fri_Jan__2_13:29:26_2015
+aut_sco2_eur_sr		2.476	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc	617	1083	147	7	528551	Fri_Jan__2_13:29:26_2015
+aut_cho3_eur_sr		1.430	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	976	1833	442	0	468323	Fri_Jan__2_18:36:36_2015
+aut_sco3_eur_sr	?	1.172	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	526	1083	215	1	528222	Fri_Jan__2_18:36:36_2015
+aut_ag1c_eur_sr	?	1.316	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	1272	2648	106	0	447926	Fri_Jan__2_18:36:36_2015
+aut_s2m3_eur_sr	?	1.053	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	344	644	8265	13	813088	Fri_Jan__2_18:36:36_2015
+aut_mob3_eur_sr		1.196	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	137	496	216	0	284984	Fri_Jan__2_18:36:36_2015
+aut_scd3_eur_sr		1.219	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	675	1419	4	0	419076	Fri_Jan__2_18:36:36_2015
+aut_scm3_eur_sr	?	1.125	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	352	637	4164	6	782866	Fri_Jan__2_18:36:36_2015
+aut_ag2c_eur_sr	?	1.241	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	822	2460	38	14	497329	Fri_Jan__2_18:36:36_2015
+aut_jhu3_eur_sr		1.735	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	1216	2157	17	1	287117	Fri_Jan__2_18:36:36_2015
+aut_ace3_eur_sr		1.531	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc	327	771	14	0	337690	Fri_Jan__2_18:36:36_2015
+aut_scm4_eur_sr		1.125	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc/rework_s2m3_scm3/qc	352	637	0	0	782860	Sat_Jan__3_10:18:33_2015
+aut_s2m4_eur_sr		1.053	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc/rework_s2m3_scm3/qc	344	644	0	0	813073	Sat_Jan__3_10:18:33_2015
+aut_jhu4_eur_sr		1.577	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc/rework_jhu3_ag2c/pcain/qc	1115	2145	6	0	287070	Sat_Jan__3_19:27:39_2015
+aut_ag2d_eur_sr		1.142	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115a/qc/pcain/qc/rework_jhu3_ag2c/pcain/qc	748	2420	8	0	496714	Sat_Jan__3_19:27:39_2015
+aut_w5c2_eur_sr		1.000	/psych/genetics_data/ripke/pgc/aut/wave2_reimp_0115/qc	336	249	6066	0	515529	Sun_Jan__4_04:41:11_2015
+aut_fin2_eur_sr		1.117	/psych/genetics_data/ripke/pgc/aut/wave2_reimp_0115/qc	166	526	7085	0	295079	Sun_Jan__4_04:41:11_2015
+aut_swm2_eur_sr		1.115	/psych/genetics_data/ripke/pgc/aut/wave2_reimp_0115/qc	312	2578	6	2	589210	Sun_Jan__4_04:41:11_2015
+aut_swm3_eur_sr		1.015	/psych/genetics_data/ripke/pgc/aut/wave2_reimp_0115/qc/pcaer_SWM2/preimp_swm2.pcain/qc	305	1201	19	2	587765	Mon_Jan__5_06:18:52_2015
+bip_bmg3_eur_sr		1.047	/psych/genetics_data/ripke/pgc/bip/boma_w2/preimp/qc	490	880	3	0	456677	Mon_Jan_19_09:52:20_2015
+bip_bmsp_eur_sr		1.058	/psych/genetics_data/ripke/pgc/bip/boma_w2/preimp/qc	253	291	1079	1	329662	Mon_Jan_19_09:52:20_2015
+bip_bmg2_eur_sr		1.112	/psych/genetics_data/ripke/pgc/bip/boma_w2/preimp/qc	181	527	1	0	789442	Mon_Jan_19_09:52:20_2015
+bip_bmau_eur_sr		1.005	/psych/genetics_data/ripke/pgc/bip/boma_w2/preimp/qc	329	1810	1209	0	505360	Mon_Jan_19_09:52:20_2015
+bip_bmpo_eur_sr		1.097	/psych/genetics_data/ripke/pgc/bip/boma_w2/preimp/qc	410	689	0	0	269263	Mon_Jan_19_09:52:20_2015
+bip_bmca_eur_sr		2.921	/psych/genetics_data/ripke/pgc/bip/boma_w2/preimp/qc	285	340	803	0	247072	Mon_Jan_19_09:52:20_2015
+bip_hali_eur_sr		1.298	/psych/genetics_data/ripke/pgc/bip/halifax/preimp/qc	435	1095	18232	3	573395	Thu_Jan_22_04:04:38_2015
+aut_aut1_eur_sr		1.026	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/pcaer_agp1b_cc.ch.fl/pcain/qc	1064	1065	105	0	444867	Thu_Jan_22_04:36:31_2015
+bip_hal2_eur_sr		1.065	/psych/genetics_data/ripke/pgc/bip/halifax/preimp/qc/qc	418	832	130	0	566260	Thu_Jan_22_05:40:04_2015
+aut_cho5_eur_sr		1.384	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115b/qc/pca_preimp/qc	694	880	50	0	291892	Thu_Jan_22_10:22:53_2015
+aut_ag1e_eur_sr		1.098	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115b/qc/pca_preimp/qc	879	1835	96	0	443449	Thu_Jan_22_10:22:53_2015
+aut_ag2f_eur_sr		1.196	/psych/genetics_data/ripke/pgc/aut/1214_trios2caco/merge_caco_postqc/preimp_0115b/qc/pca_preimp/qc	751	915	1513	1	529971	Thu_Jan_22_10:22:53_2015
+bip_ucl2_eur_sr		1.073	/psych/genetics_data/ripke/pgc/bip/wave2_1213/ophoff/ucla_0215a/qc	748	717	67	0	611804	Mon_Feb__9_09:52:47_2015
+bip_top8_eur_sr		1.020	/psych/genetics_data/ripke/pgc/bip/wave2_top/qc	192	321	6271	0	667049	Mon_Feb__9_10:04:07_2015
+mdd_nes1_eur_sr-qc2	trio	1.029	/psych/genetics_data/ripke/pgc/pgc_upload/NESDA_MDD/qc	1494	1603	0	0	565407	Tue_Mar_17_12:04:43_2015
+mdd_twg2_eur_sr		1.125	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/twge_recode/qc	1143	3763	2753	0	641675	Thu_Mar_19_13:29:59_2015
+mdd_stm2_eur_sr		1.034	/psych/genetics_data/ripke/pgc/mdd/preimp_redo_jj_pfi_stard_0315/qc	938	938	178	0	256218	Tue_Mar_24_12:13:08_2015
+mdd_pfm2_eur_sr		1.008	/psych/genetics_data/ripke/pgc/mdd/preimp_redo_jj_pfi_stard_0315/qc	281	820	7	1	318166	Tue_Mar_24_12:13:08_2015
+mdd_jjp2_eur_sr		1.021	/psych/genetics_data/ripke/pgc/mdd/preimp_redo_jj_pfi_stard_0315/qc	466	1382	18	6	664494	Tue_Mar_24_12:13:08_2015
+mdd_stm3_eur_sr		1.247	/psych/genetics_data/ripke/pgc/mdd/preimp_redo_jj_pfi_stard_0315/qc	1237	1237	124	2	256977	Tue_Mar_24_12:13:08_2015
+mdd_roc2_eur_sr		1.178	/psych/genetics_data/ripke/pgc/mdd/single_uploads/pharma_roche/qc	332	103	6342	0	348298	Wed_Mar_25_09:45:51_2015
+mdd_roc3_eur_sr		1.030	/psych/genetics_data/ripke/pgc/mdd/single_uploads/pharma_roche/qc/qc	273	92	153	0	334576	Wed_Mar_25_10:44:30_2015
+mdd_gens_eur_sr		1.115	/psych/genetics_data/ripke/pgc/mdd/preimp_collect_0914/qc/genred1_stict/qc	1020	1345	5153	0	640454	Wed_Mar_25_14:32:27_2015
+mdd_rde3_eur_sr		1.011	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_raddenm/preimp_raddenm/qc	133	450	92	0	521416	Thu_Mar_26_10:44:57_2015
+bip_kfo2_eur_sr		1.067	/psych/genetics_data/ripke/pgc/bip/wave3/KFO_caco/preimp/qc/qc	252	288	354	11	323063	Tue_Mar_31_05:45:22_2015
+bip_kfo3_eur_sr		1.062	/psych/genetics_data/ripke/pgc/bip/wave3/KFO_caco/preimp/qc/qc/qc	252	288	0	3	280453	Tue_Mar_31_06:10:49_2015
+bip_kfo4_eur_sr		1.062	/psych/genetics_data/ripke/pgc/bip/wave3/KFO_caco/preimp/qc/qc/qc	252	288	0	0	278155	Tue_Mar_31_06:10:49_2015
+bip_kfo3_eur_sr	mix_anc	1.062	/psych/genetics_data/ripke/pgc/bip/wave3/KFO_caco/preimp/qc/qc/qc	252	288	0	3	280453	Tue_Mar_31_06:36:31_2015
+bip_kfo4_eur_sr	mix_anc	1.062	/psych/genetics_data/ripke/pgc/bip/wave3/KFO_caco/preimp/qc/qc/qc	252	288	0	0	278155	Tue_Mar_31_06:36:31_2015
+tst_tst1_eur_sr	mix_anc	0.971	/psych/genetics_data/ripke/for_others/roy/lithium/test/qc	84	318	25315	0	322839	Wed_Apr__8_04:39:47_2015
+mdd_qi6c_eur_sr	mix_anc	0.999	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0415/qc	499	590	58	0	485289	Mon_Apr_13_09:39:27_2015
+mdd_qi3c_eur_sr	mix_anc	0.999	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0415/qc	864	579	986	0	291023	Mon_Apr_13_09:39:27_2015
+mdd_qio2_eur_sr	mix_anc	1.012	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0415/qc	565	526	37	0	242443	Mon_Apr_13_09:39:27_2015
+mdd_mmi1_eur_sr	mix_anc	1.017	/psych/genetics_data/ripke/pgc/mdd/single_uploads/mars_0415/MARS_UNICO_100_300_550_610k/qc	641	539	1947	0	290900	Thu_Apr_16_04:10:07_2015
+mdd_mmo1_eur_sr	mix_anc	1.160	/psych/genetics_data/ripke/pgc/mdd/single_uploads/mars_0415/MARS_UNICO_OmniExpress/qc	303	853	21592	1	624241	Thu_Apr_16_09:04:45_2015
+mdd_mmi2_eur_sr		1.016	/psych/genetics_data/ripke/pgc/mdd/single_uploads/mars_0415/MARS_UNICO_100_300_550_610k/preimp_with_pos/qc	641	539	1863	0	288848	Thu_Apr_16_10:25:32_2015
+mdd_mmo2_eur_sr		1.075	/psych/genetics_data/ripke/pgc/mdd/single_uploads/mars_0415/MARS_UNICO_OmniExpress/qc/qc	271	537	1320	0	608278	Thu_Apr_16_12:06:14_2015
+mdd_qi6e_eur_sr		0.993	/psych/genetics_data/ripke/pgc/mdd/single_uploads/qimr_0415b/qc	674	909	81	0	485273	Mon_Apr_20_06:54:50_2015
+mdd_rde4_eur_sr		1.024	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_raddenm/preimp_raddenm_0415_3d/qc	133	1025	3316	0	305536	Mon_Apr_20_09:20:49_2015
+mdd_rde4_eur_sr		1.024	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_raddenm/preimp_raddenm_0415_3d/qc	133	1025	3316	0	305536	Mon_Apr_20_09:25:27_2015
+mdd_rde4_eur_sr		1.024	/psych/genetics_data/ripke/pgc/mdd/preimp_wave2/merge_raddenm/preimp_raddenm_0415_3d/qc	133	1025	3316	0	305536	Mon_Apr_20_09:39:02_2015
+mdd_mmo4_eur_sr		1.109	/psych/genetics_data/ripke/pgc/mdd/single_uploads/mars_0415/MARS_UNICO_OmniExpress/preimp_strict/qc/qc	279	396	978	0	610896	Mon_Apr_20_10:08:40_2015
+mdd_cof2_eur_sr		1.005	/psych/genetics_data/ripke/pgc/mdd/single_uploads/baune_CoFaMS/qc/qc	122	127	121	0	331468	Wed_Apr_22_10:22:37_2015
+img_mor1_eur_sr			/psych/genetics_data/ripke/pgc/special_requests/Moods_relatives/qc	0	0	5650		579655	Thu_May__7_03:54:06_2015
+scz_du2a_eur_sr		1.078	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/Dublin_GROUP_caco/qc	345	245	2517	1	315424	Fri_Jun_12_15:04:50_2015
+scz_gro2_eur_sr		1.019	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/Dublin_GROUP_caco/qc/qc	329	277	455	0	318633	Fri_Jun_12_15:14:24_2015
+bas_swa1_eur_sr		1.042	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	2077	898	5	2	434709	Sat_Jun_20_07:52:32_2015
+bas_usi2_eur_sr		1.260	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	365	2234	0	0	267670	Sat_Jun_20_07:52:32_2015
+bas_uka1_eur_sr		1.225	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	1144	1862	172	1	277868	Sat_Jun_20_07:52:32_2015
+bas_nor1_eur_sr		1.020	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	377	473	3328	0	531673	Sat_Jun_20_07:52:32_2015
+bas_swi1_eur_sr		1.166	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	3789	1885	0	0	540897	Sat_Jun_20_07:52:32_2015
+bas_iri1_eur_sr		1.026	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	1581	150	10	10	504234	Sat_Jun_20_07:52:32_2015
+bas_ger1_eur_sr		1.063	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	1847	1165	0	0	418300	Sat_Jun_20_07:52:32_2015
+bas_uki1_eur_sr		1.139	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	6225	2761	0	0	363864	Sat_Jun_20_07:52:32_2015
+bas_aus1_eur_sr	asian	1.032	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	509	329	25	0	490719	Sat_Jun_20_07:52:32_2015
+bas_uka3_eur_sr		1.128	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	368	491	83	5	264810	Sat_Jun_20_07:52:32_2015
+bas_uka2_eur_sr		1.128	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	368	491	83	5	264810	Sat_Jun_20_07:52:32_2015
+bas_usa1_eur_sr		1.023	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc	2681	1740	0	0	455382	Sat_Jun_20_07:52:32_2015
+bas_usi3_eur_sr		1.058	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/preimp/qc/usi1_outex/qc	1029	1383	0	0	445421	Tue_Jul__7_11:19:08_2015
+bas_uka4_eur_sr		1.035	/psych/genetics_data/ripke/pgc/cdg/bip_scz/0215a/bip_vs_scz/merge_uclo_edin/preimp/qc	889	773	3	0	237579	Thu_Jul__9_17:27:02_2015
+mdd_ger1_eur_sr		1.066	/psych/genetics_data/ripke/pgc/mdd/single_uploads/gera/eur/preimp_depress/qc	7177	4775	22033	0	631322	Fri_Jul_24_05:40:02_2015
+dum_1kge_eur_sr		1.430	/psych/genetics_data/ripke/pgc/dummy/qc	225	154	0	0	503411	Wed_Aug_12_11:10:11_2015
+dum_ceu3_eur_sr		1.431	/psych/genetics_data/ripke/pgc/dummy/preimp01/qc	225	154	19366	0	459132	Wed_Aug_12_17:22:24_2015
+bpd_bom3_eur_sr		1.300	/psych/genetics_data/ripke/pgc/special_requests/Frank_bpd/qc/qc/qc	1164	1486	0	0	391719	Tue_Aug_18_13:15:01_2015
+mdd_ger2_eur_sr		1.084	/psych/genetics_data/ripke/pgc/mdd/single_uploads/gera/eur/preimp_depress_0915a/qc	7176	38638	21611	0	616361	Wed_Sep__9_10:40:10_2015
+alz_zur1_eur_sr		1.024	/psych/genetics_data/ripke/for_others/unschuld/preimp/qc	54	136	911	0	321401	Tue_Oct__6_13:16:05_2015
+aut_pnci_eur_sr		1.056	/psych/genetics_data/ripke/pgc/aut/pnc/qc	151	5765	8904	0	160167	Mon_Nov__9_10:59:44_2015
+aut_pnco_eur_sr		1.038	/psych/genetics_data/ripke/pgc/aut/pnc/qc	21	809	8018	149	658755	Mon_Nov__9_10:59:44_2015
+bip_ftg2_eur_sr		1.148	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/incl_tgen1/preimp/qc	1943	1175	6290	0	515741	Thu_Dec__3_12:17:48_2015
+aut_scm11_eur_sr		1.026	/psych/genetics_data/elise/new_ASD/SSC/parents_and_proband/autosomes/qc	333	665	9588	0	973541	Thu_Jan_14_06:03:49_2016
+aut_scm31_eur_sr		1.011	/psych/genetics_data/elise/new_ASD/SSC/parents_and_proband/autosomes/qc	1191	2376	10648	0	1036580	Thu_Jan_14_06:03:49_2016
+aut_sco21_eur_sr		1.028	/psych/genetics_data/elise/new_ASD/SSC/parents_and_proband/autosomes/qc	1077	2137	31000	0	2178565	Thu_Jan_14_06:03:49_2016
+aut_sco2a_eur_sr		0.439	/psych/genetics_data/elise/new_ASD/SSC/norelationship/autosomes/qc	1077	3162	31087	3	2177043	Thu_Jan_14_06:16:45_2016
+aut_scm1a_eur_sr		0.445	/psych/genetics_data/elise/new_ASD/SSC/norelationship/autosomes/qc	333	1016	9510	0	974534	Thu_Jan_14_06:16:45_2016
+aut_scm3a_eur_sr		0.431	/psych/genetics_data/elise/new_ASD/SSC/norelationship/autosomes/qc	1191	3427	10592	0	1031135	Thu_Jan_14_06:16:45_2016
+aut_pnc3_eur_sr		1.000	/psych/genetics_data/elise/new_ASD/PNC/for_Stephan/PNC_correctedDec16/qc	69	2957	8942	0	429410	Wed_Jan_20_10:13:36_2016
+aut_pnco_eur_sr		0.986	/psych/genetics_data/elise/new_ASD/PNC/for_Stephan/PNC_correctedDec16/qc	35	772	7473	17	673971	Wed_Jan_20_10:13:36_2016
+aut_pnco2_eur_sr		1.163	/psych/genetics_data/elise/new_ASD/PNC/for_Stephan/PNC_correctedDec16/updatedfam/qc	77	1575	7689	1	695902	Fri_Jan_22_06:09:42_2016
+aut_pnc3b_eur_sr		1.570	/psych/genetics_data/elise/new_ASD/PNC/for_Stephan/PNC_correctedDec16/updatedfam/qc	152	5970	9288	1	392166	Fri_Jan_22_06:09:42_2016
+img_f67b_eur_sr		1.054	/psych/genetics_data/ripke/pgc/special_requests/for1617/qc	115	282	14455	0	349771	Tue_Jan_26_05:31:18_2016
+img_f67b_eur_sr		1.054	/psych/genetics_data/ripke/pgc/special_requests/for1617/qc	115	282	14455	0	349771	Tue_Jan_26_11:59:10_2016
+bip_tgco1_eur_sr		4.049	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/TGEN1/qc	1199	2537	20152	42	561516	Thu_Feb_18_04:51:13_2016
+bip_tgco2_eur_sr		1.029	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/TGEN1/qc/qc	1049	685	22938	0	563959	Thu_Feb_18_05:33:47_2016
+bip_tgcx1_eur_sr		1.114	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/TGEN1/qc/preimp_pcaex/qc	150	148	35744	0	529522	Thu_Feb_18_06:37:38_2016
+bip_tgcx3_eur_sr		1.007	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/TGEN1/qc/preimp_pcaex.s/qc	101	100	17314	0	557127	Thu_Feb_18_18:42:20_2016
+bip_tgcx2_eur_sr		1.037	/psych/genetics_data/ripke/pgc/bip/wave2_fast_tgen/TGEN1/qc/preimp_pcaex.s/qc	128	127	17665	0	551032	Thu_Feb_18_18:42:20_2016
+scz_bxp2b_asn_sr		1.070	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/shi_china/preimp_p23/qc/qc	860	860	0	0	516141	Fri_Feb_19_06:56:29_2016
+scz_bxp3b_asn_sr		1.052	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/shi_china/preimp_p23/qc/qc	460	460	0	0	504489	Fri_Feb_19_06:56:29_2016
+tst_tst6_eur_sr		0.971	/psych/genetics_data/ripke/for_others/roy/lithium/test3/qc	84	318	25315	0	322839	Fri_Apr__8_17:34:38_2016
+scz_fep1_eur_sr		1.083	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/scz_belangero/qc	58	59	531	0	364700	Wed_Apr_13_08:52:16_2016
+scz_sb2a_eur_sr		1.061	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/scz_belangero/qc	250	237	4970	1	479657	Wed_Apr_13_08:52:16_2016
+bip_rom4_eur_sr		1.022	/psych/genetics_data/ripke/pgc/bip/wave2_0913/romania_try3/qc	146	77	9921	0	702795	Thu_Apr_14_07:10:35_2016
+mdd_ukb1a_eur_sr		1.035	/psych/genetics_data/ripke/pgc/ukb/mdd/qc	8230	16028	68226	0	612995	Tue_Apr_26_07:25:10_2016
+mdd_ukb1a_eur_sr		1.035	/psych/genetics_data/ripke/pgc/ukb/mdd/qc	8230	16028	68226	0	612995	Thu_Apr_28_12:49:29_2016
+bip_top9a_eur_sr		1.068	/psych/genetics_data/ripke/pgc/bip/wave3_top/qc	212	499	11539	0	612103	Tue_Jun_28_11:45:26_2016
+scz_top9b_eur_sr		1.054	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/TOP_1115/qc/qc	1027	3781	179	15	619767	Tue_Jun_28_15:24:51_2016
+scz_grtr_eur_sr		1.005	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/GROUP_trio/qc	154	303	1631	0	308001	Wed_Jun_29_20:47:31_2016
+scz_top9c_eur_sr		1.054	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/TOP_1115/qc/qc/qc	1027	3781	0	0	588047	Wed_Jun_29_20:53:46_2016
+scz_mosc2_eur_sr		1.052	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/moskvina_0115/0616/qc	410	433	7482	0	543041	Mon_Jul__4_05:58:16_2016
+scz_eusp2_eur_sr		1.012	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_spain/qc/qc	338	490	3486	0	360801	Fri_Jul_15_05:05:56_2016
+scz_braz2_eur_sr		1.133	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_brazil/qc/qc	110	334	362	0	354156	Fri_Jul_15_05:29:35_2016
+scz_eutu2_eur_sr		1.062	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_turkey/qc/qc	393	690	106	0	292450	Thu_Jul_21_06:04:28_2016
+scz_eutu2_eur_sr		1.062	/psych/genetics_data/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_turkey/qc/qc	393	690	106	0	292450	Thu_Jul_21_06:16:08_2016
+scz_cub2a_eur_sr		1.161	/psych/ripke/pgc/scz/wave3/single_datasets/cuba_1116/qc/qc	337	436	1126	2	377468	Tue_Nov_15_17:31:11_2016
+scz_cub2c_eur_sr		1.054	/psych/ripke/pgc/scz/wave3/single_datasets/cuba_1116/qc/qc	20	115	4893	0	331133	Tue_Nov_15_17:31:11_2016
+scz_cub2b_eur_sr		1.043	/psych/ripke/pgc/scz/wave3/single_datasets/cuba_1116/qc/qc	317	320	2037	0	371065	Tue_Nov_15_17:31:11_2016
+scz_to10c_eur_sr		1.048	/psych/ripke/pgc/scz/wave3/single_datasets/TOP_1116b/qc/qc	970	5040	41	0	605462	Wed_Nov_30_09:48:38_2016
+mdd_muen2_eur_sr		0.993	/psych/ripke/pgc/mdd/single_uploads/baune_muenster/qc/qc	960	834	0	0	274060	Wed_Mar_22_10:09:19_2017
+scz_du2aa_eur_sr		1.030	/psych/ripke/pgc/scz/wave3/single_datasets/Dublin_GROUP_caco/qc/test_0517/qc	127	138	4682	0	300111	Fri_May_26_07:26:44_2017
+scz_bep1b_eur_sr		1.016	/psych/ripke/beps/scz/preimp_1117/qc/qc	294	573	1415	0	525759	Tue_Nov_28_10:31:14_2017
+scz_bep1b_eur_sr		1.016	/psych/ripke/beps/scz/preimp_1117/qc/qc	294	573	1415	0	525759	Thu_Jan_24_11:59:24_2019
+scz_bep1b_eur_sr		1.016	/psych/ripke/beps/scz/preimp_1117/qc/qc	294	573	1415	0	525759	Thu_Jan_24_12:01:20_2019
+scz_scz1_mix_vt		3.966	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc/qc	726	586	523	0	377814	Wed_Aug__9_10:54:14_2017
+scz_scz1_mix_vt		1.299	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_2/qc	659	298	55	3	363792	Thu_Aug_17_10:01:59_2017
+scz_scz1_mix_vt		1.296	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_3/qc	659	298	52	0	287393	Thu_Aug_24_02:30:34_2017
+sim_sim1_eur_vt		1.352	/psych/ripke/vasa/bipolar_replication/conditional_analysis/pgc_bipolar_conditional_analysis/simulated_data/simulation/sim_1/qc	185	194	0	0	225891	Mon_Aug_28_06:14:35_2017
+sim_sim1_eur_vt		1.352	/psych/ripke/vasa/bipolar_replication/conditional_analysis/pgc_bipolar_conditional_analysis/simulated_data/simulation/sim_1/qc	185	194	0	0	225891	Mon_Aug_28_08:10:29_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Mon_Sep__4_11:52:46_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Thu_Sep__7_13:11:13_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Fri_Sep__8_03:00:28_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Fri_Sep__8_03:00:45_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Fri_Sep__8_03:15:47_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Mon_Sep_25_07:11:47_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Mon_Sep_25_08:56:18_2017
+scz_pak1b_mix_vt		1.224	/psych/ripke/vasa/schizophrenia/schizophrenia_meta_analysis/pakistani_integration/preimputation_qc_4/qc	659	270	67	0	287361	Mon_Sep_25_08:57:09_2017
+scz_russ1_eur_vt		1.053	/psych/ripke/vasa/pgc3/Russia_SCZ_GSA/qc1/qc	468	475	7304	0	478437	Mon_Nov__5_09:03:42_2018
+scz_clz2a_eur_vt		1.413	/psych/ripke/vasa/clozuk/preimputation_qc/maf_filtering/preimputation_qc/qc	5370	6940	451	244	556861	Mon_Nov__5_09:03:42_2018
+scz_cgs1c_eur_vt		1.076	/psych/ripke/vasa/clozuk/COGS/gws_filtering/preimputation_qc/qc/qc	524	3115	0	0	539647	Mon_Nov__5_09:03:42_2018
+scz_braz2_eur_sr		1.133	/psych/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_brazil/qc/qc	110	334	362	0	354156	Mon_Nov__5_09:03:42_2018
+scz_grtr_eur_sr		1.005	/psych/ripke/pgc/scz/wave3/single_datasets/GROUP_trio/qc	154	303	1631	0	308001	Mon_Nov__5_09:03:42_2018
+scz_fep1_eur_sr		1.083	/psych/ripke/pgc/scz/wave3/single_datasets/scz_belangero/qc	58	59	531	0	364700	Mon_Nov__5_09:03:42_2018
+scz_sb2a_eur_sr		1.061	/psych/ripke/pgc/scz/wave3/single_datasets/scz_belangero/qc	250	237	4970	1	479657	Mon_Nov__5_09:03:42_2018
+scz_gro2_eur_sr		1.019	/psych/ripke/pgc/scz/wave3/single_datasets/Dublin_GROUP_caco/qc/qc	329	277	455	0	318633	Mon_Nov__5_09:03:42_2018
+scz_eusp2_eur_sr		1.012	/psych/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_spain/qc/qc	338	490	3486	0	360801	Mon_Nov__5_09:03:42_2018
+scz_eutu2_eur_sr		1.062	/psych/ripke/pgc/scz/wave3/single_datasets/EUGEI/preimp_turkey/qc/qc	393	690	106	0	292450	Mon_Nov__5_09:03:42_2018
+scz_geba1_eur_sr		1.159	/psych/ripke/pgc/scz/wave3/single_datasets/Baune/qc	397	703	1727	0	225788	Mon_Nov__5_09:03:42_2018
+scz_mosc2_eur_sr		1.052	/psych/ripke/pgc/scz/wave3/single_datasets/moskvina_0115/0616/qc	410	433	7482	0	543041	Mon_Nov__5_09:03:42_2018
+scz_top9c_eur_sr		1.054	/psych/ripke/pgc/scz/wave3/single_datasets/TOP_1115/qc/qc/qc	1027	3781	0	0	588047	Mon_Nov__5_09:03:42_2018
+scz_to10c_eur_sr		1.048	/psych/ripke/pgc/scz/wave3/single_datasets/TOP_1116b/qc/qc	970	5040	41	0	605462	Mon_Nov__5_09:03:42_2018
+scz_pri1_eur_sa		1.051	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_price/qc	840	727	43	0	296858	Mon_Nov__5_09:03:42_2018
+scz_san1_eur_sa		1.022	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_sanchez/qc	335	1209	302	0	296387	Mon_Nov__5_09:03:42_2018
+scz_gpc2_eur_sa		1.061	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_gpc/QC2/qc	1957	2062	170	0	294169	Mon_Nov__5_09:03:42_2018
+scz_cog1_eur_sa		1.011	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_cogs/qc	428	476	34	0	395587	Mon_Nov__5_09:03:42_2018
+scz_gaw3_eur_sa		1.126	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_gawl/qc/QC4/qc	1255	1555	0	0	287202	Mon_Nov__5_09:03:42_2018
+scz_ser1_eur_sa		1.071	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_serri/qc	217	238	0	0	345297	Mon_Nov__5_09:03:42_2018
+scz_mcq1_eur_sa		1.070	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_mcquillin/final_release/qc/qc	1351	1310	0	0	282320	Mon_Nov__5_09:03:42_2018
+scz_rou1_eur_sa		1.005	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_rouen/qc	204	185	122	0	346567	Mon_Nov__5_09:03:42_2018
+scz_enr1_eur_sa		1.030	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_enrc2/qc	700	574	52	0	379548	Mon_Nov__5_09:03:42_2018
+scz_cel1_eur_sa		1.270	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_cels/qc	2030	1517	38	1	296859	Mon_Nov__5_09:03:42_2018
+scz_par1_eur_sa		1.004	/psych/ripke/scz/wave3/psych_chip/scz_pysch_chip/qc/pca_paris/qc	316	390	26	0	378285	Mon_Nov__5_09:03:42_2018
+ano_angi1_mix_dc		1.123	/psych/genetics_data/projects/pgc/qc/angi1/qc_dir/qc	2116	2002	6850	2	605401	Mon_Nov__5_09:03:42_2018
+ano_angi2_mix_dc		1.080	/psych/genetics_data/projects/pgc/qc/angi2/qc_dir/qc	2119	2016	6258	0	604453	Mon_Nov__5_09:03:42_2018
+ano_angi3_mix_dc		2.035	/psych/genetics_data/projects/pgc/qc/angi3/qc_dir/qc	2053	755	6931	39	606786	Mon_Nov__5_09:03:42_2018
+ano_angi4_mix_dc		1.901	/psych/genetics_data/projects/pgc/qc/angi4/qc_dir/qc	2051	760	6488	41	608945	Mon_Nov__5_09:03:42_2018
+add_dobi1_mix_dc		1.253	/psych/genetics_data/projects/pgc/qc/dobi1/qc_dir/qc	679	249	7239	0	585979	Mon_Nov__5_09:03:42_2018
+add_sheu1_mix_dc		1.027	/psych/genetics_data/projects/pgc/qc/sheu1/qc_dir/qc	287	777	7525	0	663259	Mon_Nov__5_09:03:42_2018
+scz_sawa1_mix_kt		1.090	/psych/genetics_data/projects/pgc/analysis/sawa1/qc	57	68	10506	0	522111	Mon_Nov__5_09:03:42_2018
+scz_sawa2_mix_kt		1.023	/psych/genetics_data/projects/pgc/analysis/sawa2/qc_1	61	34	9804	0	514156	Mon_Nov__5_09:03:42_2018
+scz_misi1_mix_kt		1.189	/psych/genetics_data/projects/pgc/analysis/misi1/qc	175	250	9106	0	536384	Mon_Nov__5_09:03:42_2018
+bip_dali1_mix_dc		1.045	/psych/genetics_data/projects/pgc/qc/dali1/qc_dir/qc	1216	558	9014	6	571729	Mon_Nov__5_09:03:42_2018
+add_jobe1_mix_dc		1.034	/psych/genetics_data/projects/pgc/qc/jobe1/qc_dir_round2/qc	494	863	136	0	530975	Mon_Nov__5_09:03:42_2018
+bip_greek_mix_kt		1.054	/psych/genetics_data/projects/pgc_bip3/qc/greek/qc_dir/qc	186	89	11626	0	713355	Mon_Nov__5_09:03:42_2018
+bpd_frei1_mix_kt			/psych/genetics_data/projects/pgc/qc/frei1/qc_dir/qc_dir/qc	240	0	8119		669950	Mon_Nov__5_09:03:42_2018
+mix_yolk3_mix_kt			/psych/genetics_data/projects/pgc/qc/yolk3/qc_dir/qc	122	0	6093		674341	Mon_Nov__5_09:03:42_2018
+bip_norgs_mix_kt		1.012	/psych/genetics_data/projects/pgc_bip3/qc/norgs/qc_dir/qc	104	327	13011	0	668455	Mon_Nov__5_09:03:42_2018

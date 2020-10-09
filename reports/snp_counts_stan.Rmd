@@ -1,6 +1,8 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: 'Platform SNP counts: a hierarchical model'
+output:
+  pdf_document: default
+  html_notebook: default
 ---
 
 ```{r setup, include=FALSE}
@@ -12,14 +14,14 @@ library(dummies, quietly = T)
 ## Load and preprocess
 
 ```{r}
-meta_df <- read_tsv('PGC_chip_QC_fields-good_qc_runs.tsv') %>% 
+meta_df <- read_tsv('../data/PGC_chip_QC_fields-good_qc_runs.tsv') %>% 
   dplyr::select(c(study, ncases_postqc, ncontrols_postqc, nsnps_postqc, lambda_postqc, nsnpex_miss, nsnpex_prekno_autosomes, nsnpex_prekno)) %>%
   transform(study_size = ncases_postqc + ncontrols_postqc) %>%
   replace_na(list( nsnpex_prekno = 0, nsnpex_prekno_autosomes = 0)) %>%
   mutate(nsnpex_prekno = nsnpex_prekno + nsnpex_prekno_autosomes)
 
 # merge in platform annotations
-plat_annot <-  read_tsv('PGC chip QC - qc_runs_round2.tsv', col_types = cols()) %>% 
+plat_annot <-  read_tsv('../data/PGC_chip_QC-qc_runs_round2.tsv', col_types = cols()) %>% 
   select(c(study, platform))
 meta_df <- inner_join(meta_df, plat_annot, 'study')
 
@@ -67,7 +69,7 @@ data_df <- data_df %>% filter(nsnpex_prekno < 100)
 ## Model fit
 
 ```{r}
-n_iter <- 2000
+n_iter <- 10000
 n_warmup <- 1000
 stan_data <- list(y = data_df$nsnps_postqc,
                   X = dummy(data_df$platform, drop = F),
@@ -75,19 +77,19 @@ stan_data <- list(y = data_df$nsnps_postqc,
                   P = length(levels(data_df$platform)),
                   N_tilde = 10)
 
-fit <- stan(file = 'fit_nc_snp_counts.stan',
+fit <- stan(file = '../models/fit_nc_snp_counts.stan',
             data = stan_data,
-            chains = 1,
+            chains = 4,
             iter = n_iter,
             warmup = n_warmup)
 ```
 ## Model Checks
 
 ```{r}
-y_tilde <- extract(fit) %>%
+y_tilde <- rstan::extract(fit) %>%
   pluck('y_tilde') %>% c() %>% 
   as_tibble() %>%
-  mutate(iter = rep(1:nrow(data_df), n_iter - n_warmup))
+  mutate(iter = rep(1:nrow(data_df), 4* (n_iter - n_warmup)))
 
 ppc_plt <- y_tilde %>% filter(iter <= 10) %>%
   ggplot(aes(x=value)) +
@@ -100,7 +102,9 @@ ppc_plt
 ```
 
 
-## Evaluate some new data
+## Evaluate
+
+Hypothetical observation of a dataset typed on Psych-chip, with 500k SNPs observed.
 
 ```{r}
 platform <- 'PSYC'
@@ -110,10 +114,10 @@ snp_count <- 500000
 new_data <- list(X = platform_onehot %>% c(),
                  y = (snp_count - mean(data_df$nsnps_postqc)) / sd(data_df$nsnps_postqc),
                  P = length(platforms),
-                 N_draws = n_iter - n_warmup,
-                 mu = extract(fit) %>% pluck('mu') %>% unlist(),
-                 sigma = extract(fit) %>% pluck('sigma') %>% unlist())
-predictions <- stan(file = 'predict_snp_counts.stan',
+                 N_draws = 4 * (n_iter - n_warmup),
+                 mu = rstan::extract(fit) %>% pluck('mu') %>% unlist(),
+                 sigma = rstan::extract(fit) %>% pluck('sigma') %>% unlist())
+predictions <- stan(file = '../models/predict_snp_counts.stan',
             data = new_data,
             algorithm = 'Fixed_param',
             iter = 1,
@@ -132,14 +136,9 @@ emp_pval <- function(generated_y, observed_y, one_sided = TRUE) {
   return(1.0 - pval)
 }
 
-emp_pval(eval_metrics$y_tilde, snp_count)
-
 sd_from_mean <- function(generated_y, observed_y) {
   (abs(mean(generated_y) - observed_y)) / sd(generated_y)
 }
-
-sd_from_mean(eval_metrics$y_tilde, snp_count)
-
 
 
 plts <- list()
@@ -152,17 +151,17 @@ for (plat in unique(data_df$platform)) {
   new_data <- list(X = platform_onehot %>% c(),
                    y = (snp_count - mean(data_df$nsnps_postqc)) / sd(data_df$nsnps_postqc),
                    P = length(platforms),
-                   N_draws = n_iter - n_warmup,
-                   mu = extract(fit) %>% pluck('mu') %>% unlist(),
-                   sigma = extract(fit) %>% pluck('sigma') %>% unlist())
-  predictions <- stan(file = 'predict_snp_counts.stan',
+                   N_draws = 4 * ( n_iter - n_warmup),
+                   mu = rstan::extract(fit) %>% pluck('mu') %>% unlist(),
+                   sigma = rstan::extract(fit) %>% pluck('sigma') %>% unlist())
+  predictions <- stan(file = '../models/predict_snp_counts.stan',
               data = new_data,
               algorithm = 'Fixed_param',
               iter = 1,
               chains = 1)
 
-  eval_metrics <- tibble(y_tilde = extract(predictions) %>% pluck('y_tilde') %>% c(),
-                       y_loglik = extract(predictions) %>% pluck('y_loglik') %>% c()) %>%
+  eval_metrics <- tibble(y_tilde = rstan::extract(predictions) %>% pluck('y_tilde') %>% c(),
+                       y_loglik = rstan::extract(predictions) %>% pluck('y_loglik') %>% c()) %>%
                   mutate(y_tilde = y_tilde * sd(data_df$nsnps_postqc)) + mean(data_df$nsnps_postqc)
 
   
@@ -176,6 +175,10 @@ for (plat in unique(data_df$platform)) {
     ggtitle(paste0('Simulated SNP counts for platform: ', plat)) +
     xlab('SNP count') +
     theme_minimal()
+  
+  print(plts[[i]])
   i <- i + 1
+  
 }
+
 ```
